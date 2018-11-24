@@ -1,0 +1,13 @@
+[package]
+name = "fix-display-dots"
+version = "0.1.0"
+authors = ["anekos <anekos@snca.net>"]
+
+[dependencies]
+rand = "*"
+clap = "*"
+
+# https://github.com/gtk-rs/gtk/blob/master/Cargo.toml
+[dependencies.gtk]
+version = "^0.5"
+features = ["v3_22_30"]
